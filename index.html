@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <title>Clara Skeim</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="csIcon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+  <style>
+    body, html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .backgroundimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("mountains.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+  </style>
+
+  <body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+          <a href="#about" class="w3-button w3-block w3-2017-kale">ABOUT</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#resume" class="w3-button w3-block w3-2017-kale">RESUME</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#projects" class="w3-button w3-block w3-2017-kale">PROJECTS</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#contact" class="w3-button w3-block w3-2017-kale">CONTACT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="backgroundimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:90px">Clara Skeim</span>
+      </div>
+    </header>
+
+    <!-- Adds color and text styling to the entire page-->
+    <div class="w3-sand w3-grayscale w3-large">
+
+    <!-- Container for the about section -->
+    <div class="w3-container" id="about">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT</span></h5>
+        <p>Hello, my name is Clara Skeim! I am a newly graduated computer science and data analytics student from The College of St. Scholastica in Duluth, Minnesota.</p>
+        <p>Outside of school I love to read, swim, listen to music, watch movies, travel, see family/friends, and do almost anything outdoors! 
+        <p>I am always seeking new opportunities that encourage continual learning, teamwork, and deep thinking. I am passionate about making a difference through technology in all types of fields, but with special interests in green technology, web development, software engineering, and data analytics.</p>
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p><i>My dedication is rooted in a passion for making positive change in the world through technology.</i></p>
+          <p>Strengths Finder: Achiever, Discipline, Deliberative, Focus, and Responsibility</p>
+        </div>
+        <img src="fallMe.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+      </div>
+    </div>
+
+    <!-- Container for the menu section -->
+    <div class="w3-container" id="resume">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RESUME</span></h5>
+        <img src="Full-time_seeking_resume_2022_2.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+      </div>
+    </div>
+
+    <!-- Container for the project section -->
+    <div class="w3-container" id="projects">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide"> PAST PROJECTS</span></h5>
+        <p><center>This section includes images and short descriptions of some past projects I have completed.</center></p>
+        <img src="swimTeamMgt.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <p>
+          Pictured above are some photos of my final project from a mobile device programming course I completed
+          during college. This swim team management app was created to assist swim coaches in managing their teams.
+          This application was primarily built with Dart and Flutter.
+        </p>
+        <img src="Model.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <img src="Turtle2.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <p>
+          The two images pictured above were part of my machine learning course's final project.
+          For this project, I experimented with and tested out three different Convolutional Neural
+          Networks (CNNs) in order to see which one worked best to detect sea turtle faces for conservation
+          purposes.
+        </p>
+        <img src="sampleJava.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+        <p>
+          The image above displays a Java method taken from one of my college data structure course assignments.
+          The purpose of this project was to take in a set of users and trace covid cases by finding the 
+          infected users and then going through the people they had contact with as well using a graph data structure. 
+        </p>
+
+        <br>
+        
+        <div class="w3-panel w3-leftbar w3-light-grey">
+          <p>
+            If you are interested in viewing more of my previous work, please visit my 
+            <a href="https://github.com/Cskeim4" target="_blank"> GitHub Profile</a>
+            or use the contact information below to inquire.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container for the contact section -->
+    <div class="w3-container" id="contact" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT ME!</span></h5>
+        <p><center>I would love to hear from you! Send a message, and I will respond as soon as possible. Thank you!</center></p>
+        <br>
+        <center><button class="w3-button w3-black" type="button"><a href="mailto:cskeim419@gmail.com">SEND MESSAGE</a></button></center>
+      </div>
+    </div>
+
+  </body>
+</html>
